@@ -1,0 +1,21 @@
+GET http://localhost:3333/transactions
+
+###
+
+GET http://localhost:3333/transactions/105ec229-6bd0-4fbf-902c-f475e4eb3821
+
+###
+
+GET http://localhost:3333/transactions/summary
+
+###
+
+POST http://localhost:3333/transactions
+Content-Type: application/json
+
+{
+  "title": "Televisao 80 polegadas",
+  "amount": 4000,
+  "type": "debit"
+}
+
